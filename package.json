@@ -1,0 +1,54 @@
+{
+  "name": "@koba04/react-fs",
+  "version": "0.1.3",
+  "description": "A React custom renderer for file system APIs",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "koba04",
+  "scripts": {
+    "build": "run-s clean tsc",
+    "clean": "rimraf lib",
+    "example": "ts-node examples/script.tsx",
+    "start": "tsc --watch",
+    "test": "jest src",
+    "tsc": "tsc"
+  },
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "types"
+  ],
+  "keywords": [
+    "react",
+    "react-reconciler",
+    "react-renderer",
+    "fs"
+  ],
+  "engines": {
+    "node": ">=12.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "react-reconciler": "^0.24.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.13",
+    "@types/react-reconciler": "^0.18.0",
+    "jest": "^24.9.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.12.0",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
