@@ -1,4 +1,5 @@
 # @koba04/react-fs
+[![](https://github.com/koba04/react-fs/workflows/test/badge.svg)](https://github.com/koba04/react-fs/actions?workflow=test)
 
 **The GitHub repository will be published soon!!**
 
